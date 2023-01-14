@@ -85,7 +85,7 @@ class _MyHompageState extends State<MyHompage> {
         id: DateTime.now().toString(),
         title: txTitle,
         amount: txAmount,
-        date: chosenDate);
+        date: chosennnDate);
     setState(() {
       _userTransactions.add(newTx);
     });
