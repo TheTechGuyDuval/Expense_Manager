@@ -6,7 +6,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-import 'dart:io';s
+
+import 'dart:io'
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -85,7 +87,7 @@ class _MyHompageState extends State<MyHompage> {
         id: DateTime.now().toString(),
         title: txTitle,
         amount: txAmount,
-        date: chosenDate);
+        date: chosennnDate);
     setState(() {
       _userTransactions.add(newTx);
     });
