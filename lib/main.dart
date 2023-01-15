@@ -6,8 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-
-import 'dart:io'
+import 'dart:io';
 
 
 void main() {
@@ -87,7 +86,7 @@ class _MyHompageState extends State<MyHompage> {
         id: DateTime.now().toString(),
         title: txTitle,
         amount: txAmount,
-        date: chosennnDate);
+        date: chosenDate);
     setState(() {
       _userTransactions.add(newTx);
     });
