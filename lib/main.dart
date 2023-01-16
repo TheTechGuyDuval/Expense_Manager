@@ -1,11 +1,9 @@
-import 'package:first_app/models/transaction.dart';
-import 'package:first_app/widgets/chart.dart';
-import 'package:first_app/widgets/new_transaction.dart';
-import 'package:first_app/widgets/transaction_list.dart';
+import '../models/transaction.dart';
+import '../widgets/chart.dart';
+import '../widgets/new_transaction.dart';
+import '../widgets/transaction_list.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:intl/intl.dart';
 import 'dart:io';
 
 

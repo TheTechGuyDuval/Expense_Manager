@@ -1,5 +1,5 @@
-import 'package:first_app/models/transaction.dart';
-import 'package:first_app/widgets/chart_bar.dart';
+import '../models/transaction.dart';
+import '../widgets/chart_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
